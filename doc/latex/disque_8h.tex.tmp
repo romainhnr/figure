@@ -1,0 +1,26 @@
+\hypertarget{disque_8h}{}\section{/home/epsi/cpp/figure/src/disque.h File Reference}
+\label{disque_8h}\index{/home/epsi/cpp/figure/src/disque.\+h@{/home/epsi/cpp/figure/src/disque.\+h}}
+
+
+fichier .h de disque  
+
+
+{\ttfamily \#include \char`\"{}figure.\+h\char`\"{}}\newline
+Include dependency graph for disque.\+h\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classdisque}{disque}
+\begin{DoxyCompactList}\small\item\em la classe fille disque hérite de la classe mère figure cela calcule le périmètre et la surface d\textquotesingle{}un disque grâce à deux formules \+: calcul\+Perimetre() et calcul\+Surface() \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+fichier .h de disque 
+
+\begin{DoxyAuthor}{Author}
+Romain Henry 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}

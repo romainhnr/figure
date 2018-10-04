@@ -1,25 +1,25 @@
-/* \file disque.h
- * \brief
+/*! \file disque.h
+ * \brief fichier .h de disque
  * \author Romain Henry
- * \version 1
- */
+ * \version 1.0
+*/
 
 
 #pragma once
 #include "figure.h"
 
-/* \class disque
+/*! \class disque
  * \brief la classe fille disque hérite de la classe mère figure
- * elle a en attribut le rayon (r) qui est en double (nombre décimal)
- * elle a aussi deux formules : le calcul du périmètre et de la surface d'un disque 
- * les deux formules retourne un double (un nombre décimal)
+ * cela calcule le périmètre et la surface d'un disque
+ * grâce à deux formules : calculPerimetre() et calculSurface() 
 */
 
 class disque : public figure
 {
 	public :
-/* \brief
- * \param
+/*! \brief classe disque
+ * \param r	elle a en paramètre le rayon (r) du disque qui est en double (nombre décimal)
+ * \return les deux formules retourne un double qui est le résulat du calcul effectué
 */		double r;
 		double calculPerimetre();
 		double calculSurface();
